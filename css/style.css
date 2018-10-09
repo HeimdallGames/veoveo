@@ -38,10 +38,14 @@ body { font-family: sans-serif; }
     background-image: url("../Imagenes/fondoCartas.png");
     background-color: #000000;
     background-size: cover;
+    border: 5px solid #ffd700;
+    border-radius: 25px;
 }
 
 .card__face--back {
     background-image: url("../Imagenes/Demonio2.png");
     background-size: cover;
+    border: 5px solid #ffd700;
+    border-radius: 25px;
     transform: rotateY(180deg);
 }
