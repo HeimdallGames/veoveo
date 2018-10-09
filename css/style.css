@@ -54,3 +54,10 @@ body { font-family: sans-serif; }
     position: center;
     text-align: center;
 }
+.card__face--back.img2 {
+  background-image: url("../Imagenes/Demonio4.png");
+  background-size: cover;
+  border: 5px solid #ffd700;
+  border-radius: 25px;
+  transform: rotateY(180deg);
+}

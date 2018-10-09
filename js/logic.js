@@ -11,7 +11,7 @@ card.click( function () {
         {
             otherCardFlipped = false;
             new Promise((resolve) => setTimeout(resolve, 1000 )).then(() => {
-                if(cardFlipped.css("background-image")==$(this).css("background-image"))
+                if(cardFlipped.children(".card__face--back").css("background-image").localeCompare($(this).children(".card__face--back").css("background-image"))==0)
                 {
                     cardFlipped.remove();
                     $(this).remove();
