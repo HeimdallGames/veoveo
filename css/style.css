@@ -1,11 +1,12 @@
 body { font-family: sans-serif; }
 
 .scene {
-  width: 200px;
-  height: 260px;
-  border: 1px solid #CCC;
-  margin: 40px 0;
-  perspective: 600px;
+    width: 200px;
+    height: 260px;
+    margin: 40px 0;
+    perspective: 600px;
+    position: static;
+    display: inline-block;
 }
 
 .card {
@@ -48,4 +49,8 @@ body { font-family: sans-serif; }
     border: 5px solid #ffd700;
     border-radius: 25px;
     transform: rotateY(180deg);
+}
+.titulo {
+    position: center;
+    text-align: center;
 }
