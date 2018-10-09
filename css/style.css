@@ -39,6 +39,6 @@ body { font-family: sans-serif; }
 }
 
 .card__face--back {
-    background-image: url("Imagenes\Demonio2.png");
+    background-image: url("../Imagenes/Demonio2.png");
     transform: rotateY(180deg);
 }
