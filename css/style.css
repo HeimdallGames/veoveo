@@ -40,7 +40,5 @@ body { font-family: sans-serif; }
 
 .card__face--back {
     background-image: url("../Imagenes/Demonio2.png");
-    background-color: #CD5C5C;
-    background-image: url("Imagenes\Demonio2.png");
     transform: rotateY(180deg);
 }
