@@ -35,10 +35,10 @@ body { font-family: sans-serif; }
 }
 
 .card__face--front {
-  background: red;
+    background: #FFEBCD;
 }
 
 .card__face--back {
-  background: blue;
-  transform: rotateY(180deg);
+    background-image: url("Imagenes\Demonio2.png");
+    transform: rotateY(180deg);
 }
