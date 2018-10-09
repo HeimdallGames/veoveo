@@ -11,8 +11,16 @@ card.click( function () {
         {
             otherCardFlipped = false;
             new Promise((resolve) => setTimeout(resolve, 1000 )).then(() => {
-                cardFlipped.removeClass('is-flipped');
-                $(this).removeClass('is-flipped');
+                if(cardFlipped.css("background-image")==$(this).css("background-image"))
+                {
+                    cardFlipped.remove();
+                    $(this).remove();
+                }
+                else
+                {
+                    cardFlipped.removeClass('is-flipped');
+                    $(this).removeClass('is-flipped');
+                }
             });
 
         }
