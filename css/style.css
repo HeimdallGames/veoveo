@@ -35,12 +35,13 @@ body { font-family: sans-serif; }
 }
 
 .card__face--front {
-    background-color: #CD5C5C;
+    background-image: url("../Imagenes/fondoCartas.png");
+    background-color: #000000;
+    background-size: cover;
 }
 
 .card__face--back {
-
     background-image: url("../Imagenes/Demonio2.png");
-
+    background-size: cover;
     transform: rotateY(180deg);
 }
