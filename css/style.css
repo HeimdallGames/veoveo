@@ -1,9 +1,13 @@
 body { font-family: sans-serif; }
+html {
+    background-image: url("../Imagenes/fondoTablero.png");
+}
 
 .scene {
     width: 200px;
     height: 260px;
     margin: 40px 0;
+    margin-right: 40px;
     perspective: 600px;
     position: static;
     display: inline-block;
